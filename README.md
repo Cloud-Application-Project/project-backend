@@ -1,7 +1,7 @@
 # project-backend
 
-***Dependecies are listed in requirements.txt
-For this project you will need to have just Python installed***
+***Dependecies are listed in requirements.txt***
+***For this project you will need to have just Python installed***
 
 1. To initialize virtual enviroment first open terminal/cmd
 2. Then change working directory to repository folder using cd command (For example "cd Cloud" would change your working directory to Cloud folder if it exists in your current folder).
