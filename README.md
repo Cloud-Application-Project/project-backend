@@ -9,7 +9,7 @@ Windows OS:
 4. Next activate virtual enviroment by typing into cmd "venv\Scripts\activate" then hit enter
 5. Install dependecies with "pip install -r requirements.txt"
 6. Type into CMD "SET FLASK_APP=hello_world.py" and hit enter
-7. Now that your enviroment is activate you can run the application with command "python hello_world.py"
+7. Now that your enviroment is activate you can run the application with command "flask run"
 8. Keep your cmd open and open your internet browser for example Firefox.
 9. Copy url from cmd onto your web browser and hit enter.
 10. You should see the Hello world message.
@@ -25,7 +25,7 @@ Linux OS:
 5. Next enter command ". venv/bin/activate" and hit enter
 6. Install dependecies with "sudo pip install -r requirements.txt"
 7. Type into CMD "FLASK_APP=hello_world.py" and hit enter
-8. Now that your enviroment is activate you can run the application with command "hello_world.py"
+8. Now that your enviroment is activate you can run the application with command "flask run"
 9. Keep your cmd open and open your internet browser for example Firefox.
 10. Copy url from terminal onto your web browser and hit enter.
 11. You should see the Hello world message.
