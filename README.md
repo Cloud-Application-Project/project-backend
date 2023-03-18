@@ -17,4 +17,3 @@ Linux OS with building image from Dockerfile:
 13. Enter your name and hit submit button
 14. (Oprional) in the terminal use ctrl + c to close flask server and enter "pylint hello_world.py" - this will run static code test on python file.
 
-Alternatively instead of step 6 above you can download flask-app.tar, paste it into your working directory and load ready docker image with command "docker load --input flask-app.tar". Then continue with step 7.
