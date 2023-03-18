@@ -44,6 +44,7 @@ jobs:
           
       - name: Test docker container deployment
         run: |
+          cd app_folder 
           docker build --tag flask-app .
           docker run -d -p 8000:5000 -name test flask-app
           sudo apt install curl
