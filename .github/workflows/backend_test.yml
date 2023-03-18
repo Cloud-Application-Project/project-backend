@@ -46,7 +46,7 @@ jobs:
         run: |
           cd app_folder 
           docker build --tag flask-app .
-          docker run -d -p 8000:5000 -name test flask-app
+          docker run -d -p 8000:5000 --name test flask-app
           sudo apt install curl
           curl localhost:8000
           docker stop test
