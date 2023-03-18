@@ -41,3 +41,12 @@ jobs:
           cd app_folder
           pip install -r requirements.txt
           pylint hello_world.py
+          
+      - name: Test docker container deployment
+        run: |
+          docker build --tag flask-app .
+          docker run -d -p 8000:5000 -name test flask-app
+          sudo apt install curl
+          curl localhost:8000
+          docker stop test
+          docker container prune -f
