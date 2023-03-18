@@ -1,6 +1,7 @@
 """flask module that will run the server and provide necessary methods to create endpoints"""
 from flask import Flask, request, render_template
 
+
 app = Flask(__name__)
 
 
